@@ -7,7 +7,12 @@ export const metadata: Metadata = {
 }
 
 const AboutPage = () => {
-  return <span className="text-7xl">About Page</span>
+  return (
+    <main className="flex flex-col items-center p-24">
+      <span className="text-lg">Hola mundo</span>
+      <span className="text-7xl">About Page</span>
+    </main>
+  )
 }
 
 export default AboutPage
